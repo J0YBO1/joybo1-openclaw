@@ -1,0 +1,41 @@
+{
+  "name": "joybo1-openclaw-skills",
+  "version": "1.0.0",
+  "description": "OpenClaw技能开发学习项目 - 包含4个实用技能包",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd skills/file-reader && npm install && cd ../python-runner && npm install && cd ../pdf-reader && npm install && cd ../hello-world && npm install",
+    "test-all": "cd skills/file-reader && node test.js && cd ../python-runner && node test.js && cd ../pdf-reader && node test.js && cd ../hello-world && node test.js",
+    "test-file-reader": "cd skills/file-reader && node test.js",
+    "test-python-runner": "cd skills/python-runner && node test.js",
+    "test-pdf-reader": "cd skills/pdf-reader && node test.js",
+    "test-hello-world": "cd skills/hello-world && node test.js",
+    "clean": "rm -rf skills/*/node_modules skills/*/package-lock.json",
+    "help": "echo '可用命令: npm run [install-all|test-all|test-*|clean]'"
+  },
+  "keywords": [
+    "openclaw",
+    "skills",
+    "file-reader",
+    "python-runner",
+    "pdf-reader",
+    "automation",
+    "tools"
+  ],
+  "author": "joyboy (黄冠)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J0YBO1/joybo1-openclaw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/J0YBO1/joybo1-openclaw/issues"
+  },
+  "homepage": "https://github.com/J0YBO1/joybo1-openclaw#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
