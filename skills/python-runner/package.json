@@ -1,0 +1,21 @@
+{
+  "name": "python-runner-skill",
+  "version": "1.0.0",
+  "description": "Python脚本执行技能，安全执行Python代码并返回结果",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "python",
+    "code-execution",
+    "subprocess"
+  ],
+  "author": "joyboy",
+  "license": "MIT",
+  "dependencies": {
+    "tmp": "^0.2.3"
+  }
+}
