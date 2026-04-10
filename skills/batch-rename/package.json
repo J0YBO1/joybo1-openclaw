@@ -1,0 +1,50 @@
+{
+  "name": "batch-rename",
+  "version": "2.0.0",
+  "description": "强大的批量文件重命名工具，支持前缀/后缀、正则表达式替换、文件过滤、递归处理等功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js",
+    "help": "node index.js --help"
+  },
+  "keywords": [
+    "batch",
+    "rename",
+    "file",
+    "management",
+    "automation",
+    "openclaw",
+    "skill"
+  ],
+  "author": "黄冠",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J0YBO1/joybo1-openclaw/tree/main/skills/batch-rename"
+  },
+  "bugs": {
+    "url": "https://github.com/J0YBO1/joybo1-openclaw/issues"
+  },
+  "homepage": "https://github.com/J0YBO1/joybo1-openclaw#readme",
+  "openclaw": {
+    "skill": true,
+    "emoji": "📄🔄",
+    "category": "file-management",
+    "requires": {
+      "config": [],
+      "permissions": ["file-system"]
+    },
+    "compatibility": {
+      "windows": true,
+      "linux": true,
+      "macos": true
+    }
+  }
+}
