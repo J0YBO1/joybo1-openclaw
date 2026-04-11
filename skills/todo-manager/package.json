@@ -1,0 +1,33 @@
+{
+  "name": "openclaw-todo-manager",
+  "version": "2.0.0",
+  "description": "增强版待办事项管理器，支持优先级、分类、截止日期、搜索、统计等功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js",
+    "dev": "node index.js --help",
+    "example": "node examples.js"
+  },
+  "keywords": [
+    "openclaw",
+    "todo",
+    "task-manager",
+    "productivity",
+    "cli"
+  ],
+  "author": "黄冠 & 阿虾AI助理",
+  "license": "MIT",
+  "openclaw": {
+    "skill": true,
+    "category": "productivity",
+    "tags": ["todo", "task", "manager", "productivity", "organization"],
+    "emoji": "✅",
+    "version": "2.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
