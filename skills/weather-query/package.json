@@ -1,0 +1,24 @@
+{
+  "name": "weather-query",
+  "version": "1.0.0",
+  "description": "天气查询工具，支持实时天气、预报、空气质量",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "openclaw",
+    "weather",
+    "forecast",
+    "air-quality",
+    "query"
+  ],
+  "author": "黄冠",
+  "license": "MIT",
+  "dependencies": {},
+  "openclaw": {
+    "skill": true,
+    "category": "utility",
+    "tags": ["weather", "forecast", "api", "query"]
+  }
+}

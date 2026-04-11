@@ -1,0 +1,27 @@
+{
+  "name": "data-processor",
+  "version": "1.0.0",
+  "description": "高级数据处理工具，支持过滤、分组、聚合、排序和统计分析",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "openclaw",
+    "data",
+    "processor",
+    "filter",
+    "group",
+    "aggregate",
+    "sort",
+    "statistics"
+  ],
+  "author": "黄冠",
+  "license": "MIT",
+  "dependencies": {},
+  "openclaw": {
+    "skill": true,
+    "category": "data-processing",
+    "tags": ["python", "data", "analysis", "processing"]
+  }
+}

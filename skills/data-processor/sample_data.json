@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 999.99,
+    "stock": 10,
+    "rating": 4.5,
+    "tags": ["computer", "portable", "high-end"]
+  },
+  {
+    "id": 2,
+    "name": "Python Book",
+    "category": "Books",
+    "price": 39.99,
+    "stock": 25,
+    "rating": 4.8,
+    "tags": ["programming", "education", "python"]
+  },
+  {
+    "id": 3,
+    "name": "Coffee",
+    "category": "Food",
+    "price": 4.99,
+    "stock": 100,
+    "rating": 4.2,
+    "tags": ["beverage", "morning", "energy"]
+  },
+  {
+    "id": 4,
+    "name": "Mouse",
+    "category": "Electronics",
+    "price": 29.99,
+    "stock": 15,
+    "rating": 4.0,
+    "tags": ["computer", "accessory", "wireless"]
+  },
+  {
+    "id": 5,
+    "name": "Notebook",
+    "category": "Stationery",
+    "price": 2.99,
+    "stock": 50,
+    "rating": 3.8,
+    "tags": ["writing", "paper", "school"]
+  },
+  {
+    "id": 6,
+    "name": "Headphones",
+    "category": "Electronics",
+    "price": 89.99,
+    "stock": 8,
+    "rating": 4.6,
+    "tags": ["audio", "music", "wireless"]
+  },
+  {
+    "id": 7,
+    "name": "Tea",
+    "category": "Food",
+    "price": 3.99,
+    "stock": 75,
+    "rating": 4.3,
+    "tags": ["beverage", "relax", "herbal"]
+  },
+  {
+    "id": 8,
+    "name": "JavaScript Book",
+    "category": "Books",
+    "price": 49.99,
+    "stock": 20,
+    "rating": 4.7,
+    "tags": ["programming", "web", "javascript"]
+  },
+  {
+    "id": 9,
+    "name": "Monitor",
+    "category": "Electronics",
+    "price": 299.99,
+    "stock": 5,
+    "rating": 4.4,
+    "tags": ["display", "computer", "4k"]
+  },
+  {
+    "id": 10,
+    "name": "Pen",
+    "category": "Stationery",
+    "price": 1.99,
+    "stock": 200,
+    "rating": 3.5,
+    "tags": ["writing", "ink", "office"]
+  }
+]

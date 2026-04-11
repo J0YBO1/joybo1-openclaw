@@ -1,0 +1,23 @@
+{
+  "name": "openclaw-session-cleaner",
+  "version": "1.0.0",
+  "description": "OpenClaw session清理助手，用于清理旧的session文件、压缩sessions.json、重建session索引",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"测试session清理功能\" && node index.js --stats-only"
+  },
+  "keywords": [
+    "openclaw",
+    "session",
+    "cleaner",
+    "maintenance",
+    "optimization"
+  ],
+  "author": "chujianyun",
+  "license": "MIT",
+  "openclaw": {
+    "skill": true,
+    "category": "maintenance",
+    "tags": ["session", "cleanup", "optimization", "maintenance"]
+  }
+}

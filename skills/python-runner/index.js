@@ -4,7 +4,7 @@
  * 创建时间：2026年4月10日
  */
 
-const { spawn, exec } = require('child_process');
+const { spawn } = require('child_process');
 const fs = require('fs').promises;
 const path = require('path');
 const os = require('os');
@@ -66,7 +66,9 @@ async function createTempScript(code, args = []) {
     tmp.file({ prefix: 'python_', postfix: '.py', keep: false }, (err, filePath, fd, cleanupCallback) => {
       if (err) return reject(err);
       
-      // 添加参数处理代码
+      // 将用户代码的每一行缩进4个空格
+      const indentedCode = code.split('\n').map(line => '    ' + line).join('\n');
+      
       const scriptContent = `#!/usr/bin/env python3
 import sys
 import traceback
@@ -76,7 +78,7 @@ script_args = sys.argv[1:] if len(sys.argv) > 1 else []
 
 try:
     # 用户代码开始
-${code}
+${indentedCode}
     # 用户代码结束
 except Exception as e:
     print(f"\\n❌ 执行错误: {type(e).__name__}: {e}", file=sys.stderr)

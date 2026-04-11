@@ -1,0 +1,10 @@
+{
+  "default_city": "北京",
+  "default_unit": "celsius",
+  "default_lang": "zh",
+  "api_provider": "open-meteo",
+  "cache_duration": 1800,
+  "show_emoji": true,
+  "timeout": 10,
+  "retry_times": 3
+}
